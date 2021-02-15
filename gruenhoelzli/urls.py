@@ -16,7 +16,11 @@ from django.conf.urls import include, url
 from django.contrib import admin
 import juntagrico
 
+from gruenhoelzli.views import cs_select_subscription
+
 urlpatterns = [
+    url('my/create/subscription/', cs_select_subscription, name='cs-subscription'),
+
     url(r'^admin/', admin.site.urls),
     url(r'^', include('juntagrico.urls')),
     url(r'^$', juntagrico.views.home),
