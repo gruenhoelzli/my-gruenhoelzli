@@ -7,3 +7,5 @@ static/*
 ssl/*
 /.project
 *.db
+Pipfile
+Pipfile.lock
