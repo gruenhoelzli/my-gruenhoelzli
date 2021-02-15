@@ -10,11 +10,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '8cd-j&jo=-#ecd1jjulp_s*7y$n4tad(0d_g)l=6@n^r8fg3rn'
+# See VARIOUS field in settings of https://admin.juntagrico.science/
+SECRET_KEY = os.environ.get('JUNTAGRICO_SECRET_KEY', 'dummy-key-for-development')
 
 DEBUG = os.environ.get("JUNTAGRICO_DEBUG", 'True')=='True'
 
-ALLOWED_HOSTS = ['my.gruenhoelzli.ch','gruenhoelzli.juntagrico.science', 'localhost',]
+ALLOWED_HOSTS = ['my.gruenhoelzli.ch','gruenhoelzli.juntagrico.science', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -148,23 +149,27 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 """
      juntagrico Settings
 """
-ORGANISATION_NAME = "a"
-ORGANISATION_LONG_NAME = "a"
-ORGANISATION_ADDRESS = {"name":"a", 
-            "street" : "b",
-            "number" : "c",
-            "zip" : "1234",
-            "city" : "Zürich",
-            "extra" : ""}
-ORGANISATION_BANK_CONNECTION = {"PC" : "1111",
-            "IBAN" : "123",
-            "BIC" : "1234",
-            "NAME" : "Test",
-            "ESR" : ""}
+ORGANISATION_NAME = "Grünhölzli"
+ORGANISATION_LONG_NAME = "Verein Grünhölzli"
+ORGANISATION_ADDRESS = {
+            "name": "Verein Grünhölzli",
+            "street": "Dunkelhölzlistrasse",
+            "number": "19",
+            "zip": "8048",
+            "city": "Zürich",
+            "extra": ""
+}
+ORGANISATION_BANK_CONNECTION = {
+            "PC": "???",
+            "IBAN": "???",
+            "BIC": "???",
+            "NAME": "???",
+            "ESR": "???"
+}
 SHARE_PRICE = "0"
 
 INFO_EMAIL = "info@gruenhoelzli.ch"
-SERVER_URL = "www.gruenhoelzli.org"
-ADMINPORTAL_NAME = "gruenhoelzli-admin"
+SERVER_URL = "www.gruenhoelzli.ch"
+ADMINPORTAL_NAME = 'my-gruenhoelzli'
 ADMINPORTAL_SERVER_URL = "my.gruenhoelzli.ch"
 STYLE_SHEET = "/static/gruenhoelzli/css/customize.css"
