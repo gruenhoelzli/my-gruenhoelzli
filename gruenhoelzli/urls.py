@@ -14,15 +14,15 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
-import juntagrico
-
-from gruenhoelzli.views import cs_select_subscription
+from gruenhoelzli.views import cs_select_subscription, home
 
 urlpatterns = [
     url('my/create/subscription/', cs_select_subscription, name='cs-subscription'),
 
+    url('my/home', home, name='home'),
+
     url(r'^admin/', admin.site.urls),
     url(r'^', include('juntagrico.urls')),
-    url(r'^$', juntagrico.views.home),
+    url(r'^$', home),
     url(r'^impersonate/', include('impersonate.urls')),
 ]
