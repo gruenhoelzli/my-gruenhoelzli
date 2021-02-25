@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-25 12:00+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+
+#: .\juntagrico\entity\jobs.py:22
+msgid ""
+"Nicht auf der \"Tätigkeitsbereiche\"-Seite anzeigen. Einsätze bleiben "
+"sichtbar."
+msgstr "Nicht auf der \"Gartengruppen\"-Seite anzeigen. Einsätze bleiben "
+"sichtbar."
+
+#: .\juntagrico\entity\jobs.py:49 .\juntagrico\entity\jobs.py:106
+msgid "Tätigkeitsbereich"
+msgstr "Gartengruppe"
+
+#: .\juntagrico\entity\jobs.py:50 .\juntagrico\templates\areas.html:43
+#: .\juntagrico\templates\members.html:31
+#: .\juntagrico\templates\members.html:56
+#: .\juntagrico\templates\menu\admin_menu.html:208
+#: .\juntagrico\templates\menu\user_menu.html:43
+msgid "Tätigkeitsbereiche"
+msgstr "Gartengruppen"
+
+#: .\juntagrico\entity\jobs.py:52
+msgid "Benutzer ist TätigkeitsbereichskoordinatorIn"
+msgstr "Benutzer ist GartengruppekoordinatorIn"
+
+#: .\juntagrico\templates\areas.html:18
+msgid ""
+"Trage dich für die Tätigkeitsbereiche ein, in denen du regelmässig "
+"Mitarbeiten und Verantwortung übernehmen möchtest."
+msgstr "Trage dich für die Gartengruppen ein, in denen du regelmässig "
+"Mitarbeiten und Verantwortung übernehmen möchtest."
+
+#: .\juntagrico\templates\areas.html:22
+msgid "Infos zu den Tätigkeitsbereichen erhältst du im"
+msgstr "Infos zu den Gartengruppen erhältst du im"
+
+#: .\juntagrico\templates\export.html:26
+#, python-format
+msgid "%(v_member_pl)s mit %(v_assignment_pl)s und Tätigketsbereichen"
+msgstr "%(v_member_pl)s mit %(v_assignment_pl)s und Gartengruppen"
+
+#: .\juntagrico\templates\home.html:23
+msgid "Zu den Kalendern der einzelnen Tätigkeitsbereiche"
+msgstr "Zu den Kalendern der einzelnen Gartengruppen"
+
+#: .\juntagrico\templates\widgets\assignements.html:14
+msgid "anderer Tätigkeitsbereich"
+msgstr "andere Gartengruppe"
+
+#: .\juntagrico\templates\widgets\assignements.html:18
+msgid "anderer Tätigkeitsbereich Partner"
+msgstr "andere Gartengruppe Partner"
+
+#: .\juntagrico\views_admin.py:188
+msgid "Alle aktiven {} im Tätigkeitsbereich {}"
+msgstr "Alle aktiven {} in Gartengruppe {}"
+
+#: .\juntagrico\views_admin.py:311
+msgid "-Kein Tätigkeitsbereich-"
+msgstr "-Keine Gartengruppe-"

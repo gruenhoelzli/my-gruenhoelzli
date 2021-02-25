@@ -173,3 +173,9 @@ SERVER_URL = "www.gruenhoelzli.ch"
 ADMINPORTAL_NAME = 'my-gruenhoelzli'
 ADMINPORTAL_SERVER_URL = "my.gruenhoelzli.ch"
 STYLE_SHEET = "/static/gruenhoelzli/css/customize.css"
+
+# Make sure our (gruenhoelzli) translations override the default translations.
+# This is not required for German (since no default translations present for German, only msg keys)
+# but for all other languages!
+# See also my-gruenhoelzli/gruenhoelzli/locale/README.txt
+LOCALE_PATHS = [os.path.join(BASE_DIR, "gruenhoelzli", "locale")]
