@@ -18,6 +18,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: .\juntagrico\templates\areas.html:13
+#, python-format
+msgid ""
+"Wer bei %(v_d_enriched_organisation)s mitmacht verpflichtet sich, im Rahmen "
+"der eigenen Motivationen, Prioritäten und Möglichkeiten gemeinsam zum "
+"Gelingen des Betriebes beizutragen."
+msgstr ""
+"Der Gemeinschaftsgarten %(v_d_enriched_organisation)s lebt von einem gartenübergreifenden Engagement seiner Mitglieder. "
+"Hier könnt ihr Euch, im Rahmen der eigenen Möglichkeiten für eine oer mehrere Gartengruppen anmelden. "
+"Als Richtwert erwarten wir ein Engagement von jährlich mind. 5 Gartentagen. "
+"Die Termine, die ihr auswählt, sind verbindlich. Infos zu den Gartengruppen findet ihr unter: www.gruenhoelzli.ch"
 
 #: .\juntagrico\entity\jobs.py:22
 msgid ""
