@@ -5,3 +5,7 @@
     width: 580px;
     height: 161px;
 }
+
+.nav-link[href='/my/subscription/detail/'] {
+    display: none;
+}
