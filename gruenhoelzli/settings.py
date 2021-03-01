@@ -166,6 +166,9 @@ ORGANISATION_BANK_CONNECTION = {
             "NAME": "???",
             "ESR": "???"
 }
+
+ENABLE_SHARES = False
+
 SHARE_PRICE = "0"
 
 INFO_EMAIL = "info@gruenhoelzli.ch"
