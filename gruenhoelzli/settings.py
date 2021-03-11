@@ -176,6 +176,7 @@ SERVER_URL = "www.gruenhoelzli.ch"
 ADMINPORTAL_NAME = 'my-gruenhoelzli'
 ADMINPORTAL_SERVER_URL = "my.gruenhoelzli.ch"
 STYLE_SHEET = "/static/gruenhoelzli/css/customize.css"
+BYLAWS = "http://gruenhoelzli.ch/my-gruenhoelzli/Vereinsstatuten_Gruenhoelzli.pdf"
 
 # Make sure our (gruenhoelzli) translations override the default translations.
 # This is not required for German (since no default translations present for German, only msg keys)
